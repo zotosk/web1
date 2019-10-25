@@ -1,0 +1,163 @@
+body, html, p, a, ul, li ,h1
+{
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Roboto Condensed', sans-serif;
+	box-sizing: border-box;
+	letter-spacing: 2px;
+	list-style-type: none;
+	outline-style: none;
+}
+
+p
+{
+	line-height: 1.6;
+	font-size:25px;
+}
+
+footer
+{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.main-wrap
+{
+	width: 100%;
+	padding-top: 50px;
+}
+
+.intro-secure
+{
+	width: 80%;
+	background-color:#F8F8F8;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	position: relative;
+}
+
+.main-section
+{
+	width: 80%;
+	background-color:#F8F8F8;
+	margin: 0 auto;
+	padding-bottom: 10px;
+	box-shadow: 0 0 0 0.5px rgba(0,0,0,.1), 0 4px 6px rgba(0,0,0,.2);
+}
+
+h1
+{
+	background-color: lightgrey;
+	padding-left: 10px;
+	font-weight: normal;
+	margin-bottom: 20px;
+	line-height: 50px;
+}
+
+/****Payment FORM******/
+fieldset
+{
+	border: none;
+	font-weight: 700;
+}
+
+input[type=text]
+{
+	padding: 7px 0;
+	margin: 0 4px;
+}
+
+label {
+	margin-right: 15px;
+	line-height: 50px;
+}
+
+button
+{
+	cursor: pointer;
+	color: white;
+	background-color: #000;
+	padding: 14px;
+	border-radius: 0;
+	border: none;
+	font-size: 14px;
+	font-family: 'Roboto Condensed', sans-serif;
+	letter-spacing: 2px;
+	font-weight: 700;
+	margin-top: 100px;
+}
+
+legend 
+{
+	color: white;
+	background-color: #434648;
+	padding: 10px;
+	border-radius: 0;
+	border: 1px solid #fff;
+	font-size: inherit;
+	margin: 20px 0px;
+	width: 90%;
+	text-transform: capitalize;
+}
+
+button:hover, button:focus 
+{	
+	outline-color: grey;
+	opacity: 0.7;
+}
+
+button:active 
+{
+	background-color: white;
+	cursor: pointer;
+	color: grey;
+}
+
+a.privacy
+{
+	background-color: transparent;
+	color: #000;
+	font-size: 15px;
+	position: relative;
+	top: 50px;
+}
+
+input[type=radio] 
+{
+	appearance: none;
+	border-radius: 20%;
+	width: 16px;
+	height: 16px;
+	border: 2px solid #434648;
+	transition: 0.2s ease-in-out all;
+	outline: none;
+	margin-right: 2px;
+	border-radius: 50%;
+	position: relative;
+	top: 2px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	box-shadow: 1px 1px 0px 0px rgba(0,0,0, 0.1);
+}
+
+input:checked 
+{
+	border: 8px solid #434648;
+	border-radius: 50%;
+}
+
+input[type=radio]:hover
+{
+	cursor: pointer;
+}
+
+input[name=price]
+{
+	color:grey;
+	padding: 10px;
+	font-size: 16px;
+	font-weight: 700;
+	background-color: lightgrey;
+	border: 3px solid #ddd;
+	cursor: default;
+}

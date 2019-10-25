@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<html lang="en">
+	<meta charset="utf-8">
+	<link rel="icon" href="img/st.png">
+	<link rel="stylesheet" type="text/css" href="css/checkout.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="js/popup.js"></script>
+	<title>SkyTech</title>
+</head>
+<body>
+	<div class="main-wrap">
+		<div class="intro-secure">
+		<a href="index.html"><p><i class="fa fa-chevron-left" style="font-size:24px; margin-right: 10px;"></i>Go back</p></a>
+		<p><i class="fa fa-lock" style="font-size:25px; margin:0 10px 0 0;"></i>Secure Payment Page</p>
+		</div>
+		<div class="main-section">
+			<h1>One Step Checkout</h1>
+			<form>
+			  <fieldset>
+			    <legend>Please fill in your information</legend>
+			    <label for="first-name"><span class="last-name">First Name</span><input type="text" id="first-name" placeholder="first name" required="required"></label>
+			    <label for="last-name"><span class="first-name">Last Name</span><input type="text" id="last-name" placeholder="last name" required="required"></label>
+			    <label for="email"><span class="email">E-mail</span><input type="text" id="email" placeholder="email" required="required"></label>
+			    <legend>Please select payment method:</legend>
+			    <div>
+					<img src="img/paypal.png" style="width: 80px; position: relative; top: 15px;">
+					<img src="img/cards.png" style="width: 290px; position: relative; top: 15px; left: 20px;">
+					<br>
+					<input type="radio" id="Paypal"
+					name="payment" value="1" checked="checked">
+
+					<label for="Paypal">Paypal</label>
+
+					<input type="radio" id="Credit"
+					name="payment" value="2">
+					<label for="Credit">Credit Card</label>
+					<p>
+					<input type="text" id="card-name" placeholder="* Cardholder full name" required="required">
+					<br>
+					<input type="text" name="cardnum" placeholder="* Card number" size="50" required="required">
+					<br>
+					<input type="text" name="cardnum" placeholder="* Expire Date(mm/yy)" size="22" required="required">
+					<input type="text" name="cardnum" placeholder="* Security Code" size="10" required="required">
+					<br>
+					<input type="text" name="price" value=" 99 $" size="1" readonly="readonly">
+					<button type="submit">Proceed Payment</button>
+					<br>
+			   	</div>
+			  </fieldset>
+			</form>
+		</div>
+	</div>
+	<footer>
+		<a href="#" class="privacy">Privacy Terms</a>
+	</footer>
+</body>
+</html>

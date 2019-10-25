@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<html lang="en">
+	<meta charset="utf-8">
+	<link rel="icon" href="img/st.png">
+	<link rel="stylesheet" type="text/css" href="css/contactus.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="js/popup.js"></script>
+	<title>SkyTech</title>
+</head>
+<body>
+<div id="popup-subscribe-main">
+	<div class="popup-subscribe-menu">
+		<div class="popup-subscribe-form">	
+			<div class="popup-close" title="Close" onclick="closeSubscribeMenu()">
+				x
+			</div>
+			<p><i class="fa fa-envelope-o" style="font-size:35px;color: rgba(0, 0, 0, 0.9);margin-right: 20px;"></i>Subscribe</p>
+			<input type="text" name="email" id="email" placeholder="Enter Your Email" required="required">
+			<br>
+			<input type="checkbox" name="myCheckbox">I agree with the <a href="#">Terms.</a>
+			<br>
+			<input type="submit" name="submit" value="Subscribe">
+		</div>
+	</div>
+</div>
+<div class="main">
+	<div class="navigation-wrap">
+		<nav id="nav">
+			<li class="logo"><a href="index.html"><img src="img/sky.png" alt="SkyTech company"></a></li>
+			<ul class="nav-bar">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#">Company</a></li>
+				<div class="dropmenu">
+					<li><a href="#">IT-Solutions&nbsp;<i class="fa fa-angle-down" style="font-size:14px"></i></a></li>
+					<div class="dropdown" style="width: 0px;">
+						<div class="drop-img">
+							<ul class="dropdown-list">
+								<li><a href="#">Virtualization</a></li>
+								<li><a href="#">Networking</a></li>
+								<li><a href="#">Storage & Data</a></li>
+								<li><a href="#" style="border-bottom-right-radius: 5px; border-bottom-left-radius: 5px;">Security</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<li><a href="contactus.html">Contact Us</a></li>
+				<li><a href="aboutme.html" onclick="bgColor()">About Me</a></li>
+				<li class="subscribe" onclick="openSubscribeMenu()"><input type="button" name="subscribe" id="subscribe" value="subscribe"></li>
+			</ul>
+		</nav>
+	</div>
+</div>
+<div class="form-wrap">		
+	<div class="form-container">
+		<form>
+			<p>Please fill in your Information below</p>
+			<div class="fix">
+			<div class="col_00">
+				<input type="text" id="fname" required="required" name="firstname" placeholder="Your name..   (required)">
+			</div>
+			</div>
+			<div class="fix">
+			<div class="col_00">
+				<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+			</div>
+			</div>
+			<div class="fix">
+			<div class="col_00">
+				<input type="text" id="email" required="required" name="email" placeholder="Your email..   (required)">
+			</div>
+			</div>
+			<div class="fix">
+			<div class="col_00">
+			<select id="country" name="country">
+				<option selected="" value="">Select Country..</option>
+					<option value="Greece">Greece</option>
+					<option value="Hong Kong">Hong Kong</option>
+					<option value="Great Britain">Great Britain</option>
+					<option value="Japan">Japan</option>
+			</select>
+			</div>
+			</div>
+			<div class="fix">
+			<br />
+			<div class="col_00">
+				<textarea id="textarea" name="textarea" placeholder="Comment.." style="height:50px; resize: none; border: 1px solid rgba(0,0,0,0.2);"></textarea>
+			</div>
+			</div>
+			<div class="col1">
+				<input type="radio" name="male">Male
+				<input type="radio" name="male">Female
+			</div>
+			<br />
+			<div class="col_00">
+				<div class="check">
+					<span class="check-style"></span>
+					<input type="checkbox" name="checkbox" value="check" id="agree" />I have read and agree to the <a href="#">Terms</a> and <a href="#">Conditions</a><p><p/>and Privacy Policy.
+				</div>
+			</div>
+			<br />
+			<div class="col_00">
+				<div class="submit-row">
+					<input type="submit" name="submit" value="Submit">
+				</div>
+			</div>
+			<div class="fix">
+		</form>
+	</div>
+</div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12595.822027997152!2d23.7453312!3d37.8847232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sgr!4v1520608082219" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+<footer>
+	<div class="col-03">
+		<div class="col-02">
+			<span class="span-footer-header">About our Idea</span>
+			<p>As our business grow we make your dream a reality. Our Vision is to focus on new technologies and ideas that help you grow and be better on what you do. We find the best IT-Solutions for your business, knowing that trust is what you need. Join us.</p>
+			<p style="color: #fff; font-weight: 700; font-size: 25px; position: absolute; margin-top: 30px;">#1 CHOICE FOR YOU!</p>
+		</div>
+		<div class="col-02">
+			<span class="span-footer-header">Services</span>
+			<p>
+				<ul>
+					<li><a href="#">IT-Solutions</a></li>
+					<li><a href="#">Train your Staff</a></li>
+					<li><a href="#">Web Technologies</a></li>
+					<li><a href="#">Domains</a></li>
+					<li><a href="#">Enterprise Management</a></li>
+				</ul>
+			</p>
+		</div>
+		<div class="col-02">
+			<span class="span-footer-header">About SKYTECH</span>
+			<p>
+				<ul>
+					<li><a href="#">Contact us</a></li>
+					<li><a href="#">Site Map</a></li>
+					<li><a href="#">About</a></li>
+				</ul>
+			</p>
+		</div>
+		<div class="clear"></div>
+		<ul class="social">
+			<li><a href="https://www.facebook.com" title="facebook"><i class="fa fa-facebook-official" style="font-size:24px;"></i></a></li>
+			<li><a href="https://www.linkedin.com" title="linkedin"><i class="fa fa-linkedin-square" style="font-size:24px;"></i></a></li>
+			<li><a href="https://twitter.com/" title="twitter"><i class="fa fa-twitter-square" style="font-size:24px;"></i></a></li>
+			<li><a href="https://plus.google.com" title="google+"><i class="fa fa-google-plus" style="font-size:24px;"></i></a></li>
+		</ul>
+		<div class="clear"></div>
+		<div class="contact-lines">
+			<p>Sales Hotline  202-555-0167</p>
+			<p>Support Hotline 202-555-0168</p>
+		</div>
+		<div class="copyright">
+		<span>&copy; 2018 SkyTech made by Konstantinos Zotos.</span>
+		</div>
+		<p class="terms-privacy">
+			<a href="#">Terms</a>
+			<a href="#">Privacy</a>
+		</p>
+	</div>
+</footer>
+</body>
+</html>
